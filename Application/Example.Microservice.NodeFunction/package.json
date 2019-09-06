@@ -1,0 +1,9 @@
+{
+  "name": "example.microservice.node-function",
+  "version": "0.0.1",
+  "description": "Example.Microservice.NodeFunction",
+  "main": "index.js",
+  "author": {
+    "name": ""
+  }
+}
