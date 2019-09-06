@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Microservice.Api", "Example.Microservice.Api\Example.Microservice.Api.csproj", "{1A24CB57-1073-47A2-9D30-F7B018DD8CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Microservice.Api.Tests", "Example.Microservice.Api.Tests\Example.Microservice.Api.Tests.csproj", "{9A5F3905-1D21-41AA-8C0A-F87990603BB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A1510BE3-87D0-4475-B67C-D633B75525BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A24CB57-1073-47A2-9D30-F7B018DD8CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A24CB57-1073-47A2-9D30-F7B018DD8CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A24CB57-1073-47A2-9D30-F7B018DD8CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A24CB57-1073-47A2-9D30-F7B018DD8CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5F3905-1D21-41AA-8C0A-F87990603BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5F3905-1D21-41AA-8C0A-F87990603BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5F3905-1D21-41AA-8C0A-F87990603BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5F3905-1D21-41AA-8C0A-F87990603BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A24CB57-1073-47A2-9D30-F7B018DD8CE8} = {A1510BE3-87D0-4475-B67C-D633B75525BE}
+		{9A5F3905-1D21-41AA-8C0A-F87990603BB0} = {A1510BE3-87D0-4475-B67C-D633B75525BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CC2A276-0569-4DE8-8806-8856940539B9}
+	EndGlobalSection
+EndGlobal
