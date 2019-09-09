@@ -16,5 +16,11 @@ RUN dotnet publish "Example.Microservice.Api.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
+RUN curl -Ls https://github.com/segmentio/chamber/releases/download/v2.5.0/chamber-v2.5.0-linux-amd64 -o chamber && chmod u+x chamber
+ENV CHAMBER_APPLICATION="example/microservice"
+ENV CHAMBER_SECRET_BACKEND=NULL
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "Example.Microservice.Api.dll"]
+COPY Example.Microservice.Api/entrypoint.sh .
+
+ENTRYPOINT ["/app/entrypoint.sh"]
+CMD ["dotnet", "Example.Microservice.Api.dll"]

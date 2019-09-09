@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Safelite Rules" Description="Default Safelite Rule Set" ToolsVersion="14.0">
+    <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
+        <!--This method is obsolete.-->
+        <Rule Id="CS0612" Action="Info" />
+        <!--This method is obsolete.-->
+        <Rule Id="CS0618" Action="Info" />
+    </Rules>
+    <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+        <!--Disable warning about simplifying "this" qualification.-->
+        <Rule Id="IDE0003" Action="None" />
+        <!--Prefix local calls with this.-->
+        <Rule Id="SA1101" Action="None" />
+        <!--The parameter spans multiple lines.-->
+        <Rule Id="SA1118" Action="None" />
+        <!--The C# code contains a region.-->
+        <Rule Id="SA1124" Action="None" />
+        <!--A C# using directive is placed outside of a namespace element.-->
+        <Rule Id="SA1200" Action="None" />
+        <!--Use trailing comma in multi-line initializers.-->
+        <Rule Id="SA1413" Action="None" />
+        <!--Documentation text should end with a period.-->
+        <Rule Id="SA1629" Action="None" />
+        <!--A C# code file is missing a standard file header.-->
+        <Rule Id="SA1633" Action="None" />
+    </Rules>
+</RuleSet>

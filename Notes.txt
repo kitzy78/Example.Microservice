@@ -1,0 +1,33 @@
+GitHub Code
+/
+- .artifactignore
+- .gitattributes
+- .gitignore
+- README.md
+
+/Application
+- .dockerignore
+Solution files
+Company.Application.Api
+-/Health
+Company.Application.Service
+Company.Application.Data
+Company.Application.Api.Tests
+Company.Application.Api.IntegrationTests
+Company.Application.Service.Tests
+Company.Application.Data.Tests
+Company.Application.Api.Sdk
+Company.Application.Api.Sdk.Tests
+Company.Application.Model
+Company.Application.Function
+Company.Application.Function.Tests
+
+/Data
+./Scripts/Testing
+./Scripts/Schema
+
+/Build
+- Cake scripts
+- Docker scripts
+- Azure DevOps scripts
+- CloudFormation scripts
